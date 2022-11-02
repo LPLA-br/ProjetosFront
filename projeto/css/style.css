@@ -1,0 +1,142 @@
+/* ----Form style----------------
+ * REDSTENE CORPORATION © -------
+ * ALL RIGHTS RESERVED BY THE LAW
+ * */
+
+/*reset start--------------------*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: box-sizing;
+}
+
+:root
+{
+  font-size: 62.5%;
+}
+
+/*reset end---------------------*/
+
+/*AUTOMARGIN Genérico*/
+.automarginlr
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*AUTOMARGIN*/
+
+body
+{
+  background-image: radial-gradient(#ff0000, #550000);
+}
+
+header
+{
+}
+
+.titulo
+{
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1em 0em 1em 0em;
+  text-shadow: 2px 2px 10px #000000;
+  font-family: roboto, sans-serif;
+}
+
+.subtitulo
+{
+  font-size: 16px;
+  padding: 0em;
+  font-style: italic;
+}
+
+main
+{
+  max-width: 35em; /*importante*/
+  font-size: 1.5em;
+  border-color: #ff0000aa;
+  box-shadow: 10px 10px 20px 1px #000000;
+  border-style: solid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #0000006a;
+}
+
+form
+{
+  padding: 3%;
+}
+
+fieldset
+{
+  border-style: hidden;
+  padding: 2%;
+}
+
+.whiteFont
+{
+  color: #f0f0f0;
+  font-family: roboto;
+}
+
+input[type="text"],
+select,
+textarea
+{
+  display: block;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: #ffffff88;
+  background-color: #ffffff88;
+  outline: none;
+  width: 100%;
+  resize: none;
+}
+
+input[type="text"]:hover,
+select:hover,
+textarea:hover
+{
+  border-bottom-color: #ff4000;
+  border-radius: 5px;
+}
+
+textarea
+{
+  display: block;
+  border-style: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.txtinp
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formBotao
+{
+  width: 100%;
+  color: #ffffffaa;
+  background-image:  linear-gradient(180deg, #550000 ,#ff0000 ,#550000);
+  border-style: none;
+}
+
+footer
+{
+  width: 100%;
+}
+
+.corp-info
+{
+  color: #ff4000;
+  text-align: center;
+  margin-right: auto;
+  margin-left:auto;
+  font-size: 2.2rem;
+  font-family: roboto;
+}

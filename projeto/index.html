@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!--formulário supostamente responsivo-->
+
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Gulzar&family=Roboto:wght@100&display=swap" rel="stylesheet">
+		<title> Pesquisa-Restene </title>
+	</head>
+	<body>
+		<div>
+			<header class="automarginlr">
+				<h1 class="titulo"> Formulário de de Pesquisa </h1>
+				<h2 class="titulo subtitulo"> Obrigado contribuir com esta pesquisa da corporação Redstene© </h2>
+			</header>
+
+			<main class="automarginlr">
+				<form method="post" action="127.0.0.1" >
+					<fieldset>
+						<div>
+							<label class="whiteFont" for="nome" required>Nome</label>
+							<input class="txtinp" id="GET-nome" type="text" name="nome" placeholder="Digite seu nome" value="">
+						</div>
+
+						<div>
+							<label class="whiteFont" for="Email" required>Email</label>
+							<input class="txtinp" id="GET-email" type="text" name="Email" placeholder="Digite seu email" value="">
+						</div>
+
+						<div>
+							<label class="whiteFont" for="idade">Idade</label>
+							<input class="txtinp" id="GET-idade" type="text" name="idade" placeholder="Digite sua idade" value="">
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<legend class="whiteFont">Você tem alguma indicação de novato para entrar na corporação?</legend>
+						<div>
+							<input id="sim" type="radio" name="sel">
+							<label class="whiteFont" for="sim">Sim</label>
+						</div>
+						<div>
+							<input id="não" type="radio" name="sel">
+							<label class="whiteFont" for="não">Não</label>
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<legend class="whiteFont"> Qual é a característica que você mais gosta nesta corporação: </legend>
+						<select class="inpsel" name="car-select" id="select">
+							<option disabled value="none" >Selecione uma opção</option>
+							<option value="">Pesquisa Rígida</option>
+							<option value="">Metas Bem Delimitadas</option>
+							<option value="">Planejamento</option>
+							<option value="">Ações Alfa</option>
+						</select>
+					</fieldset>
+
+					<fieldset>
+						<legend class="whiteFont">O que você acha que pode ser melhorado na corporação:</legend>
+						<div>
+							<input type="checkbox" id="me1">
+							<label class="whiteFont" for="me1">Facilitar na admição de novatos.</label>
+						</div>
+
+						<div>
+							<input type="checkbox" id="me2">
+							<label class="whiteFont" for="me2">Testes mais rigorosos nos departamentos.</label>
+						</div>
+
+						<div>
+							<input type="checkbox" id="me3">
+							<label class="whiteFont" for="me3">Ampliação das áreas de lazer subterrâneas.</label>
+						</div>
+
+						<div>
+							<input type="checkbox" id="me4">
+							<label class="whiteFont"  for="me4">Ampliar sistema de segurança em laboratórios críticos.</label>
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<label class="whiteFont" for="opiniao">Detalhe sua opinião sobre nós:</label>
+						<textarea id="opiniao" name="opiniao" class="txtarea" placeholder="Escreva-nos sua opinião. Não se acanhe!">
+						</textarea>
+					</fieldset>
+
+					<div>
+							<button class="formBotao" type="submit"> Enviar </button>
+					</div>
+				</form>
+			</main>
+		</div>
+			<footer>
+				<div>
+					<p class="corp-info"> <small> Redstene Corporation © ALL RIGHTS RESERVED </small> </p>
+				</div>
+			</footer>
+		<!-- <script src=""></script> -->
+	</body>
+</html>
