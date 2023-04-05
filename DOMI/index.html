@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+		<meta name="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A html page template.">
+		<link rel="stylesheet" href="./css/styles.css">
+		<title> DOM </title>
+	</head>
+	<body>
+		<div class="ronaldinhoSoccer">
+			<header>
+				<h1> VERIFICADOR DE IDADES </h1>
+			</header>
+
+			<main>
+				<h2> SALA DE AULA APRENDENDO DOM </h2>
+				<form method="" action="">
+					<fieldset>
+						<legend> Verificador de idades </legend>
+						<label> Ano de nascimento: <input type="number" id="nascData" min="1900"></label>
+						<div class="container-Flex-radio">
+							<label> Sexo: </label>
+							<div>
+								<label for="M"> Masculino </label>
+								<input type="radio" id="M" name="sexo">
+							</div>
+							<div>
+								<label for="F"> Feminino </label>
+								<input type="radio" id="F" name="sexo">
+							</div>
+						</div>
+						<input type="button" value="MODIFICAR" id="modf">
+						<div id="Resposta"></div>
+					</fieldset>
+				</form>
+			</main>
+
+			<footer>
+				<h3> @LPLA-br </h3>
+			</footer>
+		</div>
+		<script src="./js/index.js"></script>
+</body>

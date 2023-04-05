@@ -1,0 +1,145 @@
+/*unidades relativas
+ * 50px 5rem
+ * 178px 17.8rem*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: box-sizing;
+}
+
+:root
+{
+	font-size: 62.5%;
+}
+
+/*SETOR GENÊRICO*/
+
+.margin-centrar
+{
+	margin: 0 auto;
+}
+
+.font-cor-pagina
+{
+	color: #645d87;
+}
+
+/*SETOR GENÊRICO*/
+
+/*BODY*/
+
+body
+{
+  background-color: #ece9fd;
+	font-family: akshar, sans-serif;
+}
+
+/*div principal no centro do body?*/
+body > div
+{
+	padding: 3rem 0;
+	max-width: 460px;
+}
+
+header h1+p
+{
+	margin: 2rem 0;
+	max-width: 28rem;
+}
+
+a
+{
+	display: block;
+	text-decoration: none;
+	color: #645d87;
+	font-weight: 800;
+	margin: 0.5rem auto;
+}
+
+a:hover
+{
+	color: #010101;
+}
+
+ul
+{
+	list-style: none;
+}
+
+header > div,
+main > div
+{
+	padding: 2rem;
+}
+
+.nosso-trabalho
+{
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	text-shadow: 1px 1px 3px;
+}
+
+header h1
+{
+	font-size: 3rem;
+	font-weight: 1000;
+	max-width: 30rem;
+}
+
+body span
+{
+	margin-right: 1.3rem;
+}
+
+/*não exatamente bold*/
+.bold
+{
+	font-weight: 700;
+	font-size: 2.2rem;
+}
+
+.big-bold
+{
+	font-size: 5rem;
+	font-weight: 900;
+}
+
+.pontos-flex
+{
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+/*BODY*/
+
+/*SETOR CORREÇÃO*/
+
+/*Mobile first!*/
+
+/*se passar de N abaixo, corrigir. */
+@media(max-width: 265px)
+{
+  .bold
+	{
+		font-size: 1.5rem;
+	}
+}
+
+@media(min-width: 500px)
+{
+	body > div
+	{
+		max-width: 590px;
+		display: flex;
+		align-items: center;
+	}
+	
+}
+
+/*SETOR CORREÇÃO*/
+
+
+

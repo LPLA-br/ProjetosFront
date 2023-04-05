@@ -1,0 +1,36 @@
+I aula
+apresentação da plataforma freecodecamp
+
+II aula
+---A internet---
+darpa-agency
+arpanet
+tcp
+tcp/ip
+milnet nsfnet commercial_network
+how the internet works VOX
+exploring gopher - the internet forgotten
+http hyper text transfer protocol
+html hyper text markup language 
+www world wide web
+modulação digital -> analógico
+demodulação -> contrário
+
+III aula
+DNS Domain Name Server
+Domínio identifica o serviço EX: www.SERVIÇO.com
+	Domínio: Nome único, pago anualmente, TLDs?
+	Hospedagem: Armazenamento, pago mensalmente, espaço memória,
+		    recursos (python, php, etc...)
+	
+	URL:
+	www.github.com/alissonalves
+	TLDs: .io .gov .com
+	Domínio: github
+	Sub Domínio: www.
+	Caminho: alissonalves
+
+	protocolo://Subdomínio.Domínio.tld.tld./caminho
+	https://suap.ifrn.edu.br/accounts/login/
+
+Primeiro Projeto survey-form.freecodecamp.rocks

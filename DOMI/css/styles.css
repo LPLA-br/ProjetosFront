@@ -1,0 +1,38 @@
+/* css grosso */
+
+.container-Flex-radio
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body
+{
+  background-color: #478af5;
+}
+
+h1, h2, footer > h3
+{
+  text-align: center;
+}
+
+.ronaldinhoSoccer
+{
+  border: 1px solid #000000;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  max-width: 29rem;
+  margin: 0 auto;
+  background-color: #d0d0d0;
+}
+
+img
+{
+  width: 20rem;
+}
+
+input
+{
+  margin: 1rem 0 1rem 0;
+}

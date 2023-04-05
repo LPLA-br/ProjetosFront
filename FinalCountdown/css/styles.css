@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+*,
+:after,
+:before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  overflow: hidden;
+  background: linear-gradient( #000000, #00aaaa);
+  height: 100vh;
+}
+
+header,
+main,
+footer
+{
+  margin: 0 auto;
+  max-width: 20em;
+  font-family: Roboto;
+}
+
+h1
+{
+  color: #000000;
+  animation: 1s linear infinite alternate purpurina;
+}
+
+main
+{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #a0a0a0;
+  box-shadow: 10px 10px 100px #000000;
+}
+
+fieldset
+{
+  padding: 1em;
+}
+
+fieldset>legend
+{
+  margin: 0 auto;
+  font-style: italic;
+}
+
+fieldset input
+{
+  border-radius: 10px;
+  text-align: center;
+  height: 1.7rem;
+}
+
+footer, header
+{
+  text-align: center;
+  padding: 1rem;
+}
+
+form
+{
+  max-width: 20em;
+}
+
+#saida
+{
+  width: 100%;
+}
+
+.inputs
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+[type="button"]
+{
+  display: block;
+  padding: 0.1rem;
+  width: 100%;
+  max-width: 10rem;
+  margin: 1rem auto 0;
+  font-family: Roboto;
+}
+
+#saida
+{
+  height: 20rem;
+  overflow: scroll;
+}
+
+@keyframes purpurina
+{
+  0%
+  {
+    text-shadow: 1px 0.1px 10px #ffffff;
+  }
+  50%
+  {
+      text-shadow: 1px 0.1px 10px #ff0000;
+  }
+  100%
+  {
+    text-shadow: 1px 0.1px 10px #00ff00;
+  }
+}

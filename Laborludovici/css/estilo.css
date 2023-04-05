@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');	
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	height: 100vh;
+	background: linear-gradient(#1c5269,#2482ab);
+}
+
+
+header, footer
+{
+	color: #ffffff;
+	text-align: center;
+	padding: 1em 0;
+	text-shadow: 10px 10px 10px #000000;
+	font-family: Roboto;
+}
+
+main
+{
+	padding: 1rem;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+
+header,
+main,
+footer
+{
+	width: 30em;
+	margin: 0 auto;
+}
+
+form
+{
+	padding: 1em;
+}
+
+fieldset div
+{
+	display: inline-flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	width: 100%;
+	border-bottom: 1px solid #0f0f0f;
+	gap: 0.5rem;
+	padding: 1em;
+}
+
+fieldset>div>#Numero,
+fieldset>div>#gatilho
+{
+	width: 5em;
+}
+
+fieldset legend
+{
+	margin: 0 auto;
+}
+
+.linha
+{
+	height: 0;
+	border-bottom: 1px solid #000000;
+}
+
+#resultados
+{
+	width: 90%;
+	margin: 1rem auto;
+	height: 15em;
+	font-family: monospace;
+	overflow-y: scroll;
+	display: block;
+}
+

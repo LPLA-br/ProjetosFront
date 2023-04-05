@@ -1,0 +1,179 @@
+/*unidades relativas
+ * 50px 5rem
+ * 178px 17.8rem*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: box-sizing;
+}
+
+:root
+{
+	font-size: 62.5%;
+}
+
+
+
+/*SETOR GENÊRICO*/
+
+/*SETOR GENÊRICO*/
+
+/*BODY*/
+body
+{
+	background: radial-gradient(#2b5c8aff 30em, #2b5cbaf7 60em);
+}
+
+body>div
+{
+  font-size: 1.8em;
+	font-family: akshar, monospace;
+	padding-bottom: 6em;
+	padding-top: 6em;
+}
+
+.center
+{
+	width: 100%;
+	max-width: 90rem;
+	margin: 0em auto;
+	background-color: #2b5c8a80;
+	/*border: 1px solid;*/
+	/*background-color: #2b5c8a;*/
+}
+
+header
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:  center;
+}
+
+
+header > p,
+header > h1
+{
+	margin: 2rem;
+}
+
+h1
+{
+	color: #ff3f00;	
+	font-size: 3em;
+}
+
+.empresa
+{
+	color: #ff3f00;
+	font-size: 1.2em;
+	
+}
+
+main
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+
+h2,
+p
+{
+	padding: 5rem 1rem5rem 1rem;
+}
+
+ul
+{
+  display:flex;
+	flex-direction: column;
+	gap: 2em;
+	justify-content: space-around;
+	list-style: none;
+	margin-left: 1.5em;
+}
+
+a
+{
+	text-decoration: none;
+  text-align: center;
+	border: 1px solid #000000;
+	background-color: #0f0f0f55;
+	color: #f0f0f0;
+	margin: 9px;
+}
+
+h2,p
+{
+	text-align: center;
+}
+
+li > span
+{
+	color: #0d0d0d;
+	font-size: 2.2em;
+}
+
+footer
+{
+	text-align: center;
+	padding: 3em 0;
+	border-top: 1px solid #00afff66;
+}
+
+/*BODY*/
+
+/*SETOR CORREÇÃO*/
+@media(max-width: 929px)
+{
+	header
+	{
+		border-bottom:1px solid #1a7db8;
+		padding: 2em 0;
+	}
+	p
+	{
+		max-width: 19em;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width: 419px)
+{
+	body
+	{
+		font-size: 0.9em;
+	}
+}
+
+
+@media(min-width: 930px)
+{
+	/*flex row apenas para telas
+	maiores que VALOR acima*/
+	.conteudo
+  {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+	  margin: 0 auto;
+  }
+	main
+	{
+    border-left:  1px solid #00afff66;
+	}
+	header
+	{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+/*SETOR CORREÇÃO*/
+
+
+
